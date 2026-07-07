@@ -46,7 +46,7 @@ export const HeroSection = () => {
             <div className="relative">
               <div className="w-24 h-24 rounded-full ring-4 ring-primary/40 shadow-lg shadow-primary/30 overflow-hidden">
                 <img
-                  src="/projects/300-7.png"
+                  src="/projects/krishimg.jpeg"
                   alt="Krish Patel"
                   className="w-full h-full object-cover"
                 />
