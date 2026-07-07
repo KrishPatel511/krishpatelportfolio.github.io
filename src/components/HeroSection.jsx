@@ -46,7 +46,7 @@ export const HeroSection = () => {
             <div className="relative">
               <div className="w-24 h-24 rounded-full ring-4 ring-primary/40 shadow-lg shadow-primary/30 overflow-hidden">
                 <img
-                  src="/projects/krishimg.jpeg"
+                  src="https://api.dicebear.com/7.x/avataaars/svg?seed=KrishPatel&backgroundColor=b6e3f4,c0aede&clothingColor=3c4f5c&hairColor=2c1b18&skinColor=f8d25c"
                   alt="Krish Patel"
                   className="w-full h-full object-cover"
                 />
