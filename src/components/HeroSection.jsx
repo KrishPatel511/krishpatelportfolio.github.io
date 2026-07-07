@@ -3,9 +3,7 @@ import { useEffect, useState } from "react";
 
 const roles = [
   "Full Stack Developer",
-  "React.js Specialist",
-  "Oracle APEX Developer",
-  "Node.js & NestJS Engineer",
+  
 ];
 
 export const HeroSection = () => {
@@ -46,8 +44,12 @@ export const HeroSection = () => {
           {/* Avatar */}
           <div className="flex justify-center mb-2 opacity-0 animate-fade-in">
             <div className="relative">
-              <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-purple-600 flex items-center justify-center text-4xl font-black text-white shadow-lg shadow-primary/30">
-                KP
+              <div className="w-24 h-24 rounded-full ring-4 ring-primary/40 shadow-lg shadow-primary/30 overflow-hidden">
+                <img
+                  src="/projects/300-7.png"
+                  alt="Krish Patel"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="absolute bottom-1 right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-background" />
             </div>
@@ -68,7 +70,7 @@ export const HeroSection = () => {
           </div>
 
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Full Stack Developer with <span className="text-foreground font-semibold">1.9+ years</span> of experience
+            Full Stack Developer with <span className="text-foreground font-semibold">1.5+ years</span> of experience
             crafting end-to-end web solutions with React, Node.js, NestJS, and Oracle APEX.
           </p>
 
