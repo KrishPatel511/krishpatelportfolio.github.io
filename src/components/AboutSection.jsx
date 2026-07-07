@@ -1,10 +1,11 @@
 import { Briefcase, Code, Database, GraduationCap } from "lucide-react";
 
 const stats = [
-  { value: "1.9+", label: "Years Experience" },
-  { value: "3+", label: "Projects Built" },
+  { value: "1.5+", label: "Years Experience" },
+  { value: "5+", label: "Projects Built" },
+   { value: "10+", label: "Technologies" },
   { value: "MCA", label: "Post Graduate" },
-  { value: "2025", label: "Graduated" },
+ 
 ];
 
 const experiences = [
@@ -25,7 +26,7 @@ const experiences = [
   },
   {
     role: "MCA – Master of Computer Applications",
-    period: "2022 – 2025",
+    period: "2023 – 2025",
     icon: <GraduationCap className="h-5 w-5 text-primary" />,
   },
 ];
@@ -76,7 +77,7 @@ export const AboutSection = () => {
             <h3 className="text-2xl font-semibold">Full Stack Developer</h3>
 
             <p className="text-muted-foreground leading-relaxed">
-              A Full Stack Developer with <span className="text-foreground font-medium">1.9+ years</span> of
+              A Full Stack Developer with <span className="text-foreground font-medium">1.5+ years</span> of
               hands-on experience in React.js, Node.js, NestJS, and Oracle APEX. I've worked on
               enterprise-grade government projects involving complex business workflows, REST API
               integrations, and end-to-end application development.
@@ -89,7 +90,7 @@ export const AboutSection = () => {
             </p>
 
             {/* Timeline */}
-            <div className="space-y-3 pt-2">
+            {/* <div className="space-y-3 pt-2">
               {experiences.map((exp, i) => (
                 <div
                   key={i}
@@ -104,7 +105,7 @@ export const AboutSection = () => {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
 
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <a href="#contact" className="cosmic-button text-center">

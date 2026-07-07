@@ -147,7 +147,7 @@ export const ContactSection = () => {
             </div>
 
             {/* Availability badge */}
-            <div className="flex items-center gap-3 p-4 rounded-xl bg-green-500/5 border border-green-500/20">
+            {/* <div className="flex items-center gap-3 p-4 rounded-xl bg-green-500/5 border border-green-500/20">
               <span className="relative flex h-3 w-3 flex-shrink-0">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500" />
@@ -155,7 +155,7 @@ export const ContactSection = () => {
               <p className="text-sm text-green-400 font-medium">
                 Available for new opportunities
               </p>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Panel — Form */}
@@ -181,7 +181,7 @@ export const ContactSection = () => {
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl border border-input bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-300 placeholder:text-muted-foreground/50"
-                      placeholder="John Doe"
+                      placeholder="Krish Patel"
                     />
                   </div>
 
@@ -197,7 +197,7 @@ export const ContactSection = () => {
                       value={formData.email}
                       onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       className="w-full px-4 py-3 rounded-xl border border-input bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-300 placeholder:text-muted-foreground/50"
-                      placeholder="john@gmail.com"
+                      placeholder="krish@gmail.com"
                     />
                   </div>
                 </div>
@@ -214,7 +214,7 @@ export const ContactSection = () => {
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     className="w-full px-4 py-3 rounded-xl border border-input bg-background text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all duration-300 resize-none placeholder:text-muted-foreground/50"
-                    placeholder="Hello Krish, I'd like to discuss..."
+                    placeholder="Hello , I'd like to discuss..."
                   />
                 </div>
 
