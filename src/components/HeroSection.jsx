@@ -44,16 +44,8 @@ export const HeroSection = () => {
           {/* Avatar */}
           <div className="flex justify-center mb-2 opacity-0 animate-fade-in">
             <div className="relative">
-              <div className="w-24 h-24 rounded-full ring-4 ring-primary/40 shadow-lg shadow-primary/30 overflow-hidden bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center">
-                <img
-                  src="https://api.dicebear.com/9.x/avataaars/png?seed=KrishPatel&size=96&backgroundColor=b6e3f4&top=shortHairShortFlat&hairColor=2c1b18&facialHairType=blank&eyes=happy&mouth=smile&skin=light&clotheType=hoodie"
-                  alt="Krish Patel"
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.target.style.display = 'none';
-                    e.target.parentNode.innerHTML += '<span style="font-size:2.5rem">😊</span>';
-                  }}
-                />
+              <div className="w-24 h-24 rounded-full ring-4 ring-primary/40 shadow-lg shadow-primary/30 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+                <span className="text-white font-bold text-2xl tracking-wide">KP</span>
               </div>
               <span className="absolute bottom-1 right-1 w-4 h-4 bg-green-400 rounded-full border-2 border-background" />
             </div>
